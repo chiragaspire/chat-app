@@ -1,5 +1,5 @@
 const app = require('./app');
-const port = process.env.port || 4000;
+const port = process.env.PORT || 4000;
 const http = require('http');
 const socketio = require('socket.io');
 const Filter = require('bad-words');
